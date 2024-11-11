@@ -127,7 +127,7 @@ const Introduction = () => {
 
           <div
             className="mt-8 flex justify-center  md:px-20
-          "
+          " id="about"
           >
             <iframe
               width="100%"

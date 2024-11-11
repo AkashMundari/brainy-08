@@ -18,7 +18,7 @@ const AboutAuthor = () => {
           {/* Host Info Container */}
           <div className="flex flex-col md:flex-row items-center gap-1 md:gap-12 ">
             {/* Image Container */}
-            <div className="author w-full md:w-3/5"></div>
+            <div className="author w-full md:w-3/5 md:h-[220px] h-[195px]"></div>
 
             {/* Content Container */}
             <div className="w-full md:w-2/3">

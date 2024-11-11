@@ -44,7 +44,6 @@ const HeroNav = () => {
     { name: "Team", id: "team", href: "#team" },
     { name: "Benefits", id: "benefits", href: "#benefits" },
     { name: "Reviews", id: "reviews", href: "#reviews" },
-    
   ];
 
   const scrollToSection = (sectionId) => {
@@ -89,7 +88,7 @@ const HeroNav = () => {
         flex justify-between items-center `}
         >
           {/*logo*/}
-          <div className="logo mr-10"></div>
+          <div className="logo mr-6"></div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
@@ -118,9 +117,11 @@ const HeroNav = () => {
               >
                 Register Now!!
               </button>
-              <p className=" text-[18px] text-center">
+              <p className=" text-[25px] text-center">
                 <span className="text-black">Better</span>
-                <span className="text-[rgb(2,73,120)] "> Math </span>Better
+                <span className="text-[rgb(2,73,120)] "> Math </span>
+                <br />
+                Better
                 <span className="text-[#b7ce21] "> Brain</span>
               </p>
             </div>
@@ -129,7 +130,7 @@ const HeroNav = () => {
           {/* Mobile Menu Button */}
           <div className="md:hidden mt-2 flex flex-col w-[300px] justify-center items-center">
             <button
-              className="bg-red-600 p-3
+              className="bg-red-600 p-2
            text-lg rounded-sm hover:bg-red-700 transition-colors duration-300 text-white md:hidden w-[100px]"
               style={{
                 animation: "pulse-scale 0.8s ease-in-out infinite",
@@ -138,9 +139,11 @@ const HeroNav = () => {
               Register
             </button>
 
-            <p className=" text-[11px] md:hidden text-center">
+            <p className=" text-[18px] md:hidden text-center">
               <span className="text-black">Better</span>
-              <span className="text-[rgb(2,73,120)] "> Math </span>Better
+              <span className="text-[rgb(2,73,120)] "> Math </span>
+              <br />
+              Better
               <span className="text-[#b7ce21] "> Brain</span>
             </p>
           </div>
